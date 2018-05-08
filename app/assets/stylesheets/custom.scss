@@ -1,0 +1,195 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*====Custom Styles====*/
+
+/* =====Grid==============*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background: url( asset-path('marble.jpg'));
+
+  background-attachment: fixed;
+
+}
+.background {
+  position: absolute;
+  top: -40px;
+  bottom:0;
+  width:1024px;
+
+
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+/*=====Logo=====*/
+.logo {
+  height: 350px;
+  background-color: #182c45;
+  background-color: #152863;
+  position: relative;
+}
+.logo-decoration-l {
+  width: 25%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.logo-decoration-r {
+  width: 25%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.logo h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #cdb82e;
+  padding-top: 80px;
+}
+
+.logo p {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #cdb82e;
+  padding-top: 10px;
+  font-size: 1.2em;
+}
+
+.nav-bar-top {
+  margin: 20px 0;
+  background-color: #fff;
+  width:100%;
+  height: 42px;
+}
+ul {
+text-align: center;
+}
+
+.nav-bar-top li {
+  display: inline-block;
+  padding-top: 12px;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  margin: 0 40px 0 40px;
+}
+
+.nav-bar-top {
+  width: 100%;
+
+
+}
+/* =====Links==============*/
+.nav-bar-top li:hover {
+  text-decoration: underline;
+}
+
+
+/* ===================*/
+
+.big-quote {
+  font-size: 2em;
+  line-height: 2em;
+  text-align: center;
+  border-bottom: 10px double #D4AF37;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: 'Satisfy', cursive;
+
+
+}
+
+
+
+.text-box {
+  font-size: 1.5em;
+  color: black;
+  line-height: 2em;
+  border-bottom: 10px solid #D4AF37;
+  border-style: double;
+  text-align: center;
+  letter-spacing: 1.5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text {
+  margin: 100px 0;
+
+}
+
+.feature-img {
+  width: 70%;
+  border-radius: 50%;
+}
+.photo {
+  text-align: center;
+  margin: 30px 0;
+}

@@ -1,0 +1,24 @@
+<% provide(:title, "Contact")%>
+
+<%= form_for(@prospect, url:contact_path) do |f| %>
+<%= render 'prospects/error_messages', object: f.object %>
+   <%= f.label  :first_name %>
+   <%= f.text_field  :first_name %>
+
+   <%= f.label :title %>
+   <%= f.text_field :title %>
+
+   <%= f.label :second_name %>
+   <%= f.text_field :second_name %>
+
+   <%= f.label  :email %>
+   <%= f.email_field :email %>
+
+   <%= f.label :phone_number %>
+   <%= f.text_field :phone_number %>
+
+   <%= f.label :message %>
+   <%= f.text_field :message %>
+
+   <%= f.submit %>
+<% end %>

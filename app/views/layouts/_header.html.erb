@@ -1,0 +1,24 @@
+<section class="logo">
+  <%= image_tag("swirl.png", :alt => "Swirly title decoration", class: "logo-decoration-l") %>
+  <h1>In saecula <br> saeculorum</h1>
+  <p>By Sophie Barrett</p>
+  <%= image_tag("swirl_r.png", :alt => "Swirly title decoration", class: "logo-decoration-r") %>
+</section>
+
+<nav class="nav-bar-top home page">
+  <ul>
+    <li><%= link_to "Home", root_path %></li><!--
+ --><li><%= link_to "Vestments", vestments_path %></li><!--
+ --><li><%= link_to "About", about_path %></li><!--
+ --><li><%= link_to "What's New", whats_new_path %></li><!--
+ --><li><%= link_to "Contact", contact_path %></li>
+  </ul>
+</nav>
+
+<section class="row quote">
+
+  <div class="col-md-12 quote-box">
+    <p class="big-quote">"Bespoke vestments, made to measure..."</p>
+  </div>
+
+</section>
